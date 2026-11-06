@@ -1,0 +1,44 @@
+# Local tooling and credentials
+node_modules/
+.DS_Store
+.env
+.env.*
+.openai/
+*.log
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+
+# Private exam banks, credentials, attempts and exports
+exam-private/
+bank.json
+access.json
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+exports/
+results.json
+uploads/
+data/
+
+# Course content and user media do not belong in the system repository
+materials/
+courses/
+dist/assets/
+dist/*materials*/
+dist/nymeria-training/
+dist/open-scenes/
+dist/satellite*/
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.zip
+*.tar.gz
+
+# README preview images under docs/images/ are intentionally tracked.

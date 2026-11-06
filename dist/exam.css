@@ -1,0 +1,39 @@
+.exam{background:#f5f6f1;color:#203a33}
+.exam-top{height:62px;padding:0 clamp(16px,4vw,64px);display:flex;align-items:center;gap:18px;border-bottom:1px solid #d7dfd3;background:white}
+.exam-top a{color:inherit;text-decoration:none;display:inline-flex;gap:10px;align-items:center}
+.exam-top .brand-symbol{width:28px;height:28px;background-color:#183b35}
+.exam-top>span{font-size:14px;color:#596c61;border-left:1px solid #ccd7cf;padding-left:16px}
+#back-training{margin-left:auto;font-size:13px}
+.exam-wait{padding:64px;text-align:center}
+.exam-gate{max-width:1010px;margin:clamp(32px,9vh,100px) auto;padding:0 20px;display:grid;grid-template-columns:1fr 1fr}
+.exam-intro{background:#183b35;color:#f8f8ef;padding:clamp(28px,4vw,56px);border-radius:14px 0 0 14px;display:flex;flex-direction:column;align-items:start}
+.exam-intro h1{font-size:clamp(30px,4vw,46px);letter-spacing:.04em;margin:18px 0}
+.exam-intro p{color:#d0dfd3;line-height:1.8}
+.exam-duration{margin-top:auto;padding-top:25px;font-size:16px;color:#e7dfad}
+.exam-duration b{font:500 60px/1 ui-monospace,monospace;letter-spacing:-.07em;padding-right:9px}
+.exam-form,.exam-receipt,.exam-review{background:white;border:1px solid #d5ded2;padding:clamp(24px,4vw,48px)}
+.exam-form{border-radius:0 14px 14px 0}
+.exam-form h2,.exam-review h2,.exam-receipt h1{margin:0 0 18px}
+.exam-form label{display:block;font-size:13px;margin:14px 0 5px}
+.exam-form input,.exam-review textarea{width:100%;border:1px solid #c9d4c8;padding:10px 12px;border-radius:6px;font:inherit}
+.exam-form .btn{margin-top:18px;width:100%;justify-content:center}
+.exam-error{color:#9a3529;min-height:20px;font-size:13px;margin-top:8px}
+.exam-receipt{max-width:620px;margin:8vh auto;border-radius:12px;line-height:1.9}
+.exam-receipt p{margin:10px 0 18px}
+.exam-running{display:flex;flex-direction:column;height:calc(100dvh - 62px);min-height:635px}
+.exam-bar,.exam-foot{background:white;padding:10px max(14px,2vw);display:flex;align-items:center;gap:12px;border-bottom:1px solid #d2dcd2;flex-wrap:wrap}
+.exam-bar select{max-width:min(48vw,320px);font:inherit;font-size:14px;border:1px solid #c9d4c8;border-radius:5px;padding:6px}
+.exam-clock{margin-left:auto;font:600 19px/1.2 ui-monospace,monospace;color:#244a3d}
+.exam-clock.urgent{color:#a24522}
+.exam-prompt{padding:10px max(14px,2vw);background:#eef2e6;font-size:14px;line-height:1.55}
+.exam-prompt small{display:block;color:#526456;font-size:11px}
+.exam .editor-root{overflow:auto}
+.exam .wb-layout{grid-template-columns:minmax(0,1fr) minmax(225px,290px)}
+.exam-foot{border-top:1px solid #d2dcd2;border-bottom:0;margin-top:auto;justify-content:space-between}
+.exam-review{overflow:auto;width:100%}
+.exam-review textarea{min-height:180px;line-height:1.7}
+.exam-review label{display:block;margin-bottom:12px}
+.exam-dialog{border:1px solid #c9d4c8;border-radius:12px;max-width:440px;color:#253b30;padding:28px}
+.exam-dialog::backdrop{background:#132c2380}
+.exam-dialog p{margin:14px 0 20px;line-height:1.6}
+@media(max-width:750px){.exam-gate{grid-template-columns:1fr;margin:25px auto}.exam-intro{border-radius:12px 12px 0 0}.exam-intro h1{margin:5px 0}.exam-duration{padding-top:8px}.exam-duration b{font-size:36px}.exam-form{border-radius:0 0 12px 12px}.exam .wb-layout{display:flex;flex-direction:column;overflow:auto}.exam .editor-shell{min-height:440px;flex:none}.exam .inspector{min-height:260px;overflow:visible}.exam-bar,.exam-foot{gap:6px}.exam-running{min-height:620px}}
