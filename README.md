@@ -121,6 +121,6 @@ npm run test:exam
 | 貢獻者 | 角色 |
 | --- | --- |
 | [Poyen Chang / Chang-Poyen](https://github.com/Chang-Poyen) | 專案發起、需求、標註流程與驗收 |
-| [Codex（OpenAI）](https://openai.com/codex/) | AI 協作：系統整理、程式調整、驗證、預覽圖與文件；本次提交附共同作者署名 |
+| [Codex（OpenAI）](https://openai.com/codex/) | （我的義父）系統整理、程式調整、驗證、預覽圖與文件；本次提交附共同作者署名 |
 
 標註工坊採用自己的品牌與實作。操作流程參考 [CVAT](https://docs.cvat.ai/docs/annotation/annotation-editor/) 與 [Label Studio](https://labelstud.io/tags/timelinelabels) 的公開文件。
